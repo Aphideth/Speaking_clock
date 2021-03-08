@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
         hourVocal = TextToSpeech(applicationContext, TextToSpeech.OnInitListener { status ->
                if (status != TextToSpeech.ERROR) {
-               hourVocal.language = Locale.CANADA_FRENCH
+               hourVocal.language = Locale.FRANCE
           }
         })
 
